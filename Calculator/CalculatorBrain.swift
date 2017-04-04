@@ -24,6 +24,8 @@ struct CalculatorBrain {
         "π" : Operation.constant(Double.pi),
         "e" : Operation.constant(M_E),
         "√" : Operation.unaryOperation(sqrt),
+        "%" : Operation.unaryOperation({$0 / 100}),
+        "sin" : Operation.unaryOperation(sin),
         "cos" : Operation.unaryOperation(cos),
         "±" : Operation.unaryOperation({ -$0 }),
         "×" : Operation.binaryOperation({ $0 * $1 }),
