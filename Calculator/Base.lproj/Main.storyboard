@@ -28,8 +28,8 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="y6p-g2-5bD">
                                         <rect key="frame" x="0.0" y="0.0" width="333" height="81.5"/>
                                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
+                                        <color key="textColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="zFp-bh-Tpx">
@@ -40,36 +40,44 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SkV-p2-kay">
                                                         <rect key="frame" x="0.0" y="0.0" width="77.5" height="81.5"/>
-                                                        <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="C"/>
+                                                        <color key="backgroundColor" red="0.61728780416304463" green="0.25196854938684438" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                        <state key="normal" title="C">
+                                                            <color key="titleColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Foa-0W-I8s"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n5D-Xy-htt">
                                                         <rect key="frame" x="85.5" y="0.0" width="77" height="81.5"/>
-                                                        <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="±"/>
+                                                        <color key="backgroundColor" red="0.61728780419999996" green="0.25196854940000002" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                        <state key="normal" title="±">
+                                                            <color key="titleColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OaA-AO-R10"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehL-sH-iUG">
                                                         <rect key="frame" x="170.5" y="0.0" width="77.5" height="81.5"/>
-                                                        <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="√"/>
+                                                        <color key="backgroundColor" red="0.61728780419999996" green="0.25196854940000002" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                        <state key="normal" title="√">
+                                                            <color key="titleColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Or2-6c-gh0"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2Z-ll-j13">
                                                         <rect key="frame" x="256" y="0.0" width="77" height="81.5"/>
-                                                        <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="%"/>
+                                                        <color key="backgroundColor" red="0.61728780419999996" green="0.25196854940000002" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                        <state key="normal" title="%">
+                                                            <color key="titleColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3J2-pa-zvU"/>
                                                         </connections>
@@ -84,36 +92,44 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZWj-0I-YYv">
                                                 <rect key="frame" x="0.0" y="0.0" width="77.5" height="81.5"/>
-                                                <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                <state key="normal" title="+"/>
+                                                <color key="backgroundColor" red="0.61728780419999996" green="0.25196854940000002" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                <state key="normal" title="+">
+                                                    <color key="titleColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VIc-m9-wqj"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nrY-yO-4mO">
                                                 <rect key="frame" x="85.5" y="0.0" width="77" height="81.5"/>
-                                                <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                <state key="normal" title="−"/>
+                                                <color key="backgroundColor" red="0.61728780419999996" green="0.25196854940000002" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                <state key="normal" title="−">
+                                                    <color key="titleColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Sm-y6-GC4"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0I-Tj-lgN">
                                                 <rect key="frame" x="170.5" y="0.0" width="77.5" height="81.5"/>
-                                                <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                <state key="normal" title="÷"/>
+                                                <color key="backgroundColor" red="0.61728780419999996" green="0.25196854940000002" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                <state key="normal" title="÷">
+                                                    <color key="titleColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fqP-XM-Uyk"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qup-70-KyA">
                                                 <rect key="frame" x="256" y="0.0" width="77" height="81.5"/>
-                                                <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                <state key="normal" title="×"/>
+                                                <color key="backgroundColor" red="0.61728780419999996" green="0.25196854940000002" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                <state key="normal" title="×">
+                                                    <color key="titleColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="guQ-fS-k9f"/>
                                                 </connections>
@@ -125,9 +141,11 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebd-N7-EOm">
                                                 <rect key="frame" x="0.0" y="0.0" width="77.5" height="82"/>
-                                                <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                <state key="normal" title="π"/>
+                                                <color key="backgroundColor" red="0.61728780419999996" green="0.25196854940000002" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                <state key="normal" title="π">
+                                                    <color key="titleColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="owa-ZO-yP2"/>
                                                 </connections>
@@ -135,7 +153,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oye-dF-ed3">
                                                 <rect key="frame" x="85.5" y="0.0" width="77" height="82"/>
                                                 <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                                 <state key="normal" title="7"/>
                                                 <connections>
                                                     <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l5v-UP-T2t"/>
@@ -144,7 +162,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QT1-Ii-OiM">
                                                 <rect key="frame" x="170.5" y="0.0" width="77.5" height="82"/>
                                                 <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                                 <state key="normal" title="8"/>
                                                 <connections>
                                                     <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Dt-07-nHX"/>
@@ -153,7 +171,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ioG-XK-yc1">
                                                 <rect key="frame" x="256" y="0.0" width="77" height="82"/>
                                                 <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                                 <state key="normal" title="9"/>
                                                 <connections>
                                                     <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="737-aG-WJU"/>
@@ -166,9 +184,11 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Po9-41-FPK">
                                                 <rect key="frame" x="0.0" y="0.0" width="77.5" height="81.5"/>
-                                                <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                <state key="normal" title="e"/>
+                                                <color key="backgroundColor" red="0.61728780419999996" green="0.25196854940000002" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                <state key="normal" title="e">
+                                                    <color key="titleColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pTt-OS-5Al"/>
                                                 </connections>
@@ -176,7 +196,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ud7-mx-rwG">
                                                 <rect key="frame" x="85.5" y="0.0" width="77" height="81.5"/>
                                                 <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                                 <state key="normal" title="4"/>
                                                 <connections>
                                                     <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N1B-Rl-gpg"/>
@@ -185,7 +205,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z6I-ZO-26b">
                                                 <rect key="frame" x="170.5" y="0.0" width="77.5" height="81.5"/>
                                                 <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                                 <state key="normal" title="5"/>
                                                 <connections>
                                                     <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NVt-IT-iQS"/>
@@ -194,7 +214,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6D6-Vt-W5E">
                                                 <rect key="frame" x="256" y="0.0" width="77" height="81.5"/>
                                                 <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                                 <state key="normal" title="6"/>
                                                 <connections>
                                                     <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tql-oQ-gkb"/>
@@ -207,9 +227,11 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lfm-Rw-upG">
                                                 <rect key="frame" x="0.0" y="0.0" width="77.5" height="81.5"/>
-                                                <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                <state key="normal" title="cos"/>
+                                                <color key="backgroundColor" red="0.61728780419999996" green="0.25196854940000002" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                <state key="normal" title="cos">
+                                                    <color key="titleColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uXk-ax-ng3"/>
                                                 </connections>
@@ -217,7 +239,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XU6-Js-jNQ">
                                                 <rect key="frame" x="85.5" y="0.0" width="77" height="81.5"/>
                                                 <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                                 <state key="normal" title="1"/>
                                                 <connections>
                                                     <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OEh-xI-8jH"/>
@@ -226,7 +248,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JtJ-oa-AC5">
                                                 <rect key="frame" x="170.5" y="0.0" width="77.5" height="81.5"/>
                                                 <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                                 <state key="normal" title="2"/>
                                                 <connections>
                                                     <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5FQ-Ny-X9Q"/>
@@ -235,7 +257,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xr8-nE-mGU">
                                                 <rect key="frame" x="256" y="0.0" width="77" height="81.5"/>
                                                 <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                                 <state key="normal" title="3"/>
                                                 <connections>
                                                     <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GT3-fW-9iu"/>
@@ -248,9 +270,11 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mpb-zf-vyk">
                                                 <rect key="frame" x="0.0" y="0.0" width="77.5" height="81.5"/>
-                                                <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                <state key="normal" title="sin"/>
+                                                <color key="backgroundColor" red="0.61728780419999996" green="0.25196854940000002" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                <state key="normal" title="sin">
+                                                    <color key="titleColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ano-Hy-bv2"/>
                                                 </connections>
@@ -258,7 +282,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7A-ox-Yhk">
                                                 <rect key="frame" x="85.5" y="0.0" width="77" height="81.5"/>
                                                 <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                                 <state key="normal" title="."/>
                                                 <connections>
                                                     <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qRz-HZ-jGW"/>
@@ -267,7 +291,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Pc-8S-eXT">
                                                 <rect key="frame" x="170.5" y="0.0" width="77.5" height="81.5"/>
                                                 <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                                 <state key="normal" title="0"/>
                                                 <connections>
                                                     <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ohZ-nO-0qU"/>
@@ -275,9 +299,11 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a2F-Pn-SJJ">
                                                 <rect key="frame" x="256" y="0.0" width="77" height="81.5"/>
-                                                <color key="backgroundColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                <state key="normal" title="="/>
+                                                <color key="backgroundColor" red="0.61728780419999996" green="0.25196854940000002" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                <state key="normal" title="=">
+                                                    <color key="titleColor" red="0.92215192130000001" green="0.92215192130000001" blue="0.92215192130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="joU-fG-weB"/>
                                                 </connections>
