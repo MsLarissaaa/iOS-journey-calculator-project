@@ -12,6 +12,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var display: UILabel!
     
+    @IBOutlet weak var desc: UILabel!
+    
     var userIsInTheMiddleOfTyping = false
     
     @IBAction func touchDigit(_ sender: UIButton) {
@@ -34,7 +36,20 @@ class ViewController: UIViewController {
             return Double(display.text!)!
         }
         set {
+            if newValue == 0.0 {
+                display.text = "0"
+            } else {
             display.text = String(newValue)
+            }
+        }
+    }
+    
+    var historyDesc: String {
+        get {
+            return desc.text!
+        }
+        set {
+            desc.text = String(newValue)
         }
     }
     
@@ -50,7 +65,17 @@ class ViewController: UIViewController {
         }
         if let result = brain.result {
             displayValue = result
+            historyDesc = brain.description
         }
     }
+    
+    @IBAction func clearAll(_ sender: UIButton) {
+        brain.clear()
+        displayValue = 0
+        historyDesc = brain.description
+        userIsInTheMiddleOfTyping = false
+    }
+    
 }
+
 
